@@ -8,16 +8,15 @@
 
     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
-    <script src=" https://unpkg.com/ml5@0.4.3/dist/ml5.min.js "></script >
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
     <body>
         <div class="container">
 
             <center>
-                <h3 class="btn btn-warning heading">EMOTION T0 EMOJI APP
+                <h3 class="btn btn-warning heading">HAND GESTURE APP
                     <br>
                     <span>&#128076;</span>
                     <span>&#128077;</span>
@@ -34,8 +33,8 @@
                   <b>The following gestures the model is trained on:- </b>
                   <br>
                   <span>&#128076;</span>
+                  <span>&#128077;</span>
                   <span>&#9996;</span>
-                  <span>&#129304;</span>
 
                 </p>
 
@@ -50,11 +49,12 @@
                     <label>Prediction 1-</label>
                     <p class="emotion_name" id="result_emotion_name"></p>
                     <p class="emoji" id="update_emoji"></p>
+                    
                     </div>
 
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <label>Snapshot - </label>
-                      <div id="camera"></div>
+                      <div id="result"></div>
                       <br><br>
                       <button onclick="check();" class="btn btn-success">Predict Gesture</button>
                     </div>
